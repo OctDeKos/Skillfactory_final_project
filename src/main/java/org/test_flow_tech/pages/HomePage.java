@@ -9,15 +9,12 @@ public class HomePage {
     // Локаторы элементов на странице
     private By courseListLocator = By.cssSelector(".course-list");
     // ... другие локаторы ...
-
     public HomePage(WebDriver driver) {
         this.driver = driver;
     }
-
     public void navigateTo() {
-        driver.get("https://yourwebsite.com");
+        driver.get("https://skillfactory.ru/");
     }
-
     public String getTitle() {
         return driver.getTitle();
     }
@@ -36,9 +33,9 @@ public class HomePage {
         return new SearchResultPage(driver);
     }*/
 
-    public CourseDetailsPage clickOnCourse(String courseTitle) {
+    public CareerCenterPage clickOnCourse(String courseTitle) {
         // Нажатие на указанный курс в списке
-        return new CourseDetailsPage(driver);
+        return new CareerCenterPage(driver);
     }
 
     public boolean hasFreeCourses() {

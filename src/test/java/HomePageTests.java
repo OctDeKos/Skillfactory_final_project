@@ -26,7 +26,7 @@ public class HomePageTests {
     @Test
     public void testHomePageTitle() {
         homePage.navigateTo();
-        assertEquals("Онлайн-курсы по обучению в сфере IT", homePage.getTitle());
+        assertEquals("Онлайн-школа Skillfactory — онлайн-обучение востребованным IT-профессиям", homePage.getTitle());
     }
     //Проверка наличия списка курсов на главной странице:
     @Test

@@ -4,20 +4,25 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 
+import java.io.File;
+import java.net.URL;
+
 public class WebDriverFactory {
     public static WebDriver createWebDriver() {
-        // Определение пути к chromedriver в директории resources
-        String chromeDriverPath = WebDriverFactory.class.getClassLoader().getResource("chromedriver").getPath();
+        // Получение URL к chromedriver в директории resources
+        URL chromedriverUrl = WebDriverFactory.class.getClassLoader().getResource("chromedriver.exe");
 
-        // Указание пути к ChromeDriver
-        System.setProperty("webdriver.chrome.driver", chromeDriverPath);
+        if (chromedriverUrl == null) {
+            throw new IllegalStateException("Failed to load chromedriver");
+        }
 
+        // Преобразование URL в File
+        File chromedriverFile = new File(chromedriverUrl.getFile());
+
+        // Установка системного свойства и создание WebDriver
+        System.setProperty("webdriver.chrome.driver", chromedriverFile.getAbsolutePath());
         ChromeOptions options = new ChromeOptions();
-        // Необходимые настройки ChromeOptions, например, для управления браузером
-
         WebDriver driver = new ChromeDriver(options);
-
-        // Настройка размера окна браузера
         driver.manage().window().maximize();
 
         return driver;

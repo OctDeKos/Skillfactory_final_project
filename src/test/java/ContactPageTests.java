@@ -22,5 +22,11 @@ public class ContactPageTests {
             driver.quit();
         }
     }
+    //Проверка заголовка страницы Контактов:
+    @Test
+    public void testContactPageTitle() {
+        contactPage.navigateTo();
+        assertEquals("Контакты школы по работе с данными Skillfactory", contactPage.getTitle());
+    }
 
 }

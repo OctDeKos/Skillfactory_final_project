@@ -4,18 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="05f2f104-0df3-48dc-857e-881166f89205" name="Changes" comment="First commit">
+    <list default="true" id="05f2f104-0df3-48dc-857e-881166f89205" name="Changes" comment="without any error - first draft">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/test_flow_tech/pages/CartPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/test_flow_tech/pages/CartPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/test_flow_tech/pages/CartPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/test_flow_tech/pages/FreeEventsPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/test_flow_tech/pages/ContactPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/test_flow_tech/pages/ContactPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/test_flow_tech/pages/CourseDetailsPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/test_flow_tech/pages/CourseDetailsPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/test_flow_tech/pages/CourseDetailsPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/test_flow_tech/pages/CareerCenterPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/test_flow_tech/pages/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/test_flow_tech/pages/HomePage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/test_flow_tech/utils/WebDriverFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/test_flow_tech/utils/WebDriverFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/CartPageTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/CartPageTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/chromedriver.exe" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/chromedriver.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/CartPageTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/FreeEventsPageTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/ContactPageTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ContactPageTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/CourseDetailsPageTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/CourseDetailsPageTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/CourseDetailsPageTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/CareerCenterPageTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/HomePageTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/HomePageTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -36,6 +36,9 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 7
+}]]></component>
   <component name="ProjectId" id="2TsdLgG0HdWZxgxZyGdNPILhwUn" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -56,6 +59,66 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.project.maven.repository.indices&quot;
   }
 }</component>
+  <component name="RunManager" selected="JUnit.CareerCenterPageTests.testCareerCenterPageTitle">
+    <configuration name="CareerCenterPageTests.testCareerCenterPageTitle" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Skillfactory_final_project" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="CareerCenterPageTests" />
+      <option name="METHOD_NAME" value="testCareerCenterPageTitle" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ContactPageTests.testContactPageTitle" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Skillfactory_final_project" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ContactPageTests" />
+      <option name="METHOD_NAME" value="testContactPageTitle" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FreeEventsPageTests.freeEventsPageTitle" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Skillfactory_final_project" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="FreeEventsPageTests" />
+      <option name="METHOD_NAME" value="freeEventsPageTitle" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HomePageTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Skillfactory_final_project" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="HomePageTests" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HomePageTests.testHomePageTitle" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Skillfactory_final_project" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="HomePageTests" />
+      <option name="METHOD_NAME" value="testHomePageTitle" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.CareerCenterPageTests.testCareerCenterPageTitle" />
+        <item itemvalue="JUnit.FreeEventsPageTests.freeEventsPageTitle" />
+        <item itemvalue="JUnit.ContactPageTests.testContactPageTitle" />
+        <item itemvalue="JUnit.HomePageTests.testHomePageTitle" />
+        <item itemvalue="JUnit.HomePageTests" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -79,7 +142,14 @@
       <option name="project" value="LOCAL" />
       <updated>1691837037805</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="without any error - first draft">
+      <created>1691955809469</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1691955809469</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -96,6 +166,7 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="First commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="First commit" />
+    <MESSAGE value="without any error - first draft" />
+    <option name="LAST_COMMIT_MESSAGE" value="without any error - first draft" />
   </component>
 </project>
