@@ -4,18 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="05f2f104-0df3-48dc-857e-881166f89205" name="Changes" comment="without any error - first draft">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/test_flow_tech/pages/TestCoursePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/TestCoursePageTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/test_flow_tech/pages/CareerCenterPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/test_flow_tech/pages/CareerCenterPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/test_flow_tech/pages/ContactPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/test_flow_tech/pages/ContactPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/test_flow_tech/pages/FreeEventsPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/test_flow_tech/pages/FreeEventsPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/test_flow_tech/pages/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/test_flow_tech/pages/HomePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/CareerCenterPageTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/CareerCenterPageTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ContactPageTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ContactPageTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/FreeEventsPageTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/FreeEventsPageTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/HomePageTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/HomePageTests.java" afterDir="false" />
+    <list default="true" id="05f2f104-0df3-48dc-857e-881166f89205" name="Changes" comment="21 autotests for Skillfactory">
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -148,7 +138,15 @@
       <option name="project" value="LOCAL" />
       <updated>1691955809469</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="21 autotests for Skillfactory">
+      <option name="closed" value="true" />
+      <created>1693391480876</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1693391480876</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -166,6 +164,7 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="First commit" />
     <MESSAGE value="without any error - first draft" />
-    <option name="LAST_COMMIT_MESSAGE" value="without any error - first draft" />
+    <MESSAGE value="21 autotests for Skillfactory" />
+    <option name="LAST_COMMIT_MESSAGE" value="21 autotests for Skillfactory" />
   </component>
 </project>
