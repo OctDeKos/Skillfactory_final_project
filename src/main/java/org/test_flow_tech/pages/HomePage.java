@@ -6,9 +6,12 @@ import org.openqa.selenium.WebDriver;
 public class HomePage {
     private WebDriver driver;
 
-    // Локаторы элементов на странице
-    private By courseListLocator = By.cssSelector(".course-list");
-    // ... другие локаторы ...
+    // Локаторы элементов на главной странице
+    private By contactLinkLocator = By.linkText("Контакты");
+    private By freeEventsLinkLocator = By.linkText("БЕСПЛАТНО");
+    private By careerCenterLinkLocator = By.linkText("Центр карьеры");
+    private By testCourseLinkLocator = By.linkText("Тестирование");
+
     public HomePage(WebDriver driver) {
         this.driver = driver;
     }
@@ -19,29 +22,31 @@ public class HomePage {
         return driver.getTitle();
     }
 
-    public boolean isCourseListDisplayed() {
-        return driver.findElement(courseListLocator).isDisplayed();
-    }
 
-    public ContactPage navigateToContactPage() {
-        driver.findElement(By.linkText("Контакты")).click();
+    //Контакты
+    public ContactPage clickContactLink() {
+        driver.findElement(contactLinkLocator).click();
         return new ContactPage(driver);
     }
-
-/*    public SearchResultPage searchForCourse(String query) {
-        // Взаимодействие с полем поиска и кнопкой поиска
-        return new SearchResultPage(driver);
-    }*/
-
-    public CareerCenterPage clickOnCourse(String courseTitle) {
-        // Нажатие на указанный курс в списке
+    //Бесплатно
+    public FreeEventsPage clickFreeEventsLink() {
+        driver.findElement(freeEventsLinkLocator).click();
+        return new FreeEventsPage(driver);
+    }
+    //Центр Карьеры
+    public CareerCenterPage clickCareerCenterLink() {
+        driver.findElement(careerCenterLinkLocator).click();
         return new CareerCenterPage(driver);
     }
 
-    public boolean hasFreeCourses() {
-        // Проверка наличия бесплатных курсов
-        return true;
+    //Тестирование
+    public TestCoursePage clickTestCourseLink() {
+        driver.findElement(testCourseLinkLocator).click();
+        return new TestCoursePage(driver);
     }
+
+
+
 
     // ... другие методы ...
 }

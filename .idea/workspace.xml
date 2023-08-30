@@ -5,17 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="05f2f104-0df3-48dc-857e-881166f89205" name="Changes" comment="without any error - first draft">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/test_flow_tech/pages/TestCoursePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/TestCoursePageTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/test_flow_tech/pages/CartPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/test_flow_tech/pages/FreeEventsPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/test_flow_tech/pages/CareerCenterPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/test_flow_tech/pages/CareerCenterPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/test_flow_tech/pages/ContactPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/test_flow_tech/pages/ContactPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/test_flow_tech/pages/CourseDetailsPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/test_flow_tech/pages/CareerCenterPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/test_flow_tech/pages/FreeEventsPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/test_flow_tech/pages/FreeEventsPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/test_flow_tech/pages/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/test_flow_tech/pages/HomePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/test_flow_tech/utils/WebDriverFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/test_flow_tech/utils/WebDriverFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/chromedriver.exe" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/chromedriver.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/CartPageTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/FreeEventsPageTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/CareerCenterPageTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/CareerCenterPageTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/ContactPageTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ContactPageTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/CourseDetailsPageTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/CareerCenterPageTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/FreeEventsPageTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/FreeEventsPageTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/HomePageTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/HomePageTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -36,9 +35,9 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 7
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7
+}</component>
   <component name="ProjectId" id="2TsdLgG0HdWZxgxZyGdNPILhwUn" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -47,63 +46,63 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.project.maven.repository.indices&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "C:/Users/User/Documents/Java/Test36.java",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices"
   }
-}</component>
-  <component name="RunManager" selected="JUnit.CareerCenterPageTests.testCareerCenterPageTitle">
-    <configuration name="CareerCenterPageTests.testCareerCenterPageTitle" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+}]]></component>
+  <component name="RunManager" selected="JUnit.HomePageTests.testNavigateToTestCoursePage">
+    <configuration name="CreateTask" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Skillfactory_final_project" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="CareerCenterPageTests" />
-      <option name="METHOD_NAME" value="testCareerCenterPageTitle" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ContactPageTests.testContactPageTitle" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Skillfactory_final_project" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="ContactPageTests" />
-      <option name="METHOD_NAME" value="testContactPageTitle" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="FreeEventsPageTests.freeEventsPageTitle" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Skillfactory_final_project" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="FreeEventsPageTests" />
-      <option name="METHOD_NAME" value="freeEventsPageTitle" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="HomePageTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Skillfactory_final_project" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="HomePageTests" />
+      <option name="MAIN_CLASS_NAME" value="CreateTask" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HomePageTests.testHomePageTitle" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="HomePageTests.testCreateTask" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Skillfactory_final_project" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="HomePageTests" />
-      <option name="METHOD_NAME" value="testHomePageTitle" />
+      <option name="METHOD_NAME" value="testCreateTask" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HomePageTests.testNavigateToTestCoursePage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Skillfactory_final_project" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="HomePageTests" />
+      <option name="METHOD_NAME" value="testNavigateToTestCoursePage" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestCoursePageTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Skillfactory_final_project" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TestCoursePageTests" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestCoursePageTests.testTestCoursePageTitle" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Skillfactory_final_project" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TestCoursePageTests" />
+      <option name="METHOD_NAME" value="testTestCoursePageTitle" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -111,11 +110,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.CareerCenterPageTests.testCareerCenterPageTitle" />
-        <item itemvalue="JUnit.FreeEventsPageTests.freeEventsPageTitle" />
-        <item itemvalue="JUnit.ContactPageTests.testContactPageTitle" />
-        <item itemvalue="JUnit.HomePageTests.testHomePageTitle" />
-        <item itemvalue="JUnit.HomePageTests" />
+        <item itemvalue="JUnit.HomePageTests.testNavigateToTestCoursePage" />
+        <item itemvalue="JUnit.HomePageTests.testCreateTask" />
+        <item itemvalue="JUnit.TestCoursePageTests.testTestCoursePageTitle" />
+        <item itemvalue="JUnit.TestCoursePageTests" />
+        <item itemvalue="JUnit.CreateTask" />
       </list>
     </recent_temporary>
   </component>

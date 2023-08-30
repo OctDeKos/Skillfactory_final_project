@@ -8,11 +8,11 @@ import org.openqa.selenium.WebDriver;
         private String baseUrl = "https://skillfactory.ru/contacts"; // URL страницы контактов
 
         // Локаторы элементов на странице контактов
-        private By nameFieldLocator = By.id("name");
-        private By emailFieldLocator = By.id("email");
-        private By messageFieldLocator = By.id("message");
-        private By submitButtonLocator = By.cssSelector(".submit-button");
-        private By successMessageLocator = By.cssSelector(".success-message");
+        private By contactLinkLocator = By.linkText("Контакты");
+        private By freeEventsLinkLocator = By.linkText("БЕСПЛАТНО");
+        private By careerCenterLinkLocator = By.linkText("Центр карьеры");
+        private By onlineCourcesLinkLocator = By.linkText("онлайн-курсы");
+
 
         public ContactPage(WebDriver driver) {
             this.driver = driver;
@@ -24,18 +24,20 @@ import org.openqa.selenium.WebDriver;
         public String getTitle() {
             return driver.getTitle();
         }
-        public void fillContactForm(String name, String email, String message) {
-            driver.findElement(nameFieldLocator).sendKeys(name);
-            driver.findElement(emailFieldLocator).sendKeys(email);
-            driver.findElement(messageFieldLocator).sendKeys(message);
+        //Контакты
+        public ContactPage clickContactLink() {
+            driver.findElement(contactLinkLocator).click();
+            return new ContactPage(driver);
         }
-
-        public void submitForm() {
-            driver.findElement(submitButtonLocator).click();
+        //Бесплатно
+        public FreeEventsPage clickFreeEventsLink() {
+            driver.findElement(freeEventsLinkLocator).click();
+            return new FreeEventsPage(driver);
         }
-
-        public boolean isSubmissionSuccessful() {
-            return driver.findElement(successMessageLocator).isDisplayed();
+        //Центр Карьеры
+        public CareerCenterPage clickCareerCenterLink() {
+            driver.findElement(careerCenterLinkLocator).click();
+            return new CareerCenterPage(driver);
         }
 
         // ... другие методы для взаимодействия с элементами на странице контактов ...

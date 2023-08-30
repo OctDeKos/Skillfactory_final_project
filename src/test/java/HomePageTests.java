@@ -1,14 +1,19 @@
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
-import org.openqa.selenium.WebDriver;
-import org.test_flow_tech.pages.HomePage;
+
+import org.test_flow_tech.pages.*;
 import org.test_flow_tech.utils.WebDriverFactory;
+
 import static org.junit.Assert.*;
+import org.openqa.selenium.WebDriver;
+
 
 public class HomePageTests {
     private WebDriver driver;
     private HomePage homePage;
+
+
 
     @Before
     public void setup() {
@@ -22,18 +27,44 @@ public class HomePageTests {
             driver.quit();
         }
     }
-    //Проверка заголовка главной страницы:
+    //Проверка заголовка Главной страницы:
     @Test
     public void testHomePageTitle() {
         homePage.navigateTo();
         assertEquals("Онлайн-школа Skillfactory — онлайн-обучение востребованным IT-профессиям", homePage.getTitle());
     }
-    //Проверка наличия списка курсов на главной странице:
+
+    //Проверка перехода с Главной страницы на Контакты:
     @Test
-    public void testCourseListExists() {
+    public void testNavigateToContactPage() {
         homePage.navigateTo();
-        assertTrue(homePage.isCourseListDisplayed());
+        ContactPage contactPage = homePage.clickContactLink();
+        // Проверки на странице контактов
     }
+    //Проверка перехода с Главной страницы на страницу Бесплатно:
+    @Test
+    public void testNavigateToFreeCoursesPage() {
+        homePage.navigateTo();
+        FreeEventsPage freeEventsPage = homePage.clickFreeEventsLink();
+
+    }
+    //Проверка перехода с Главной страницы на страницу Центр Карьеры:
+    @Test
+    public void testNavigateToCareerCenterPage() {
+        homePage.navigateTo();
+        CareerCenterPage careerCenterPage = homePage.clickCareerCenterLink();
+
+    }
+
+    //Проверка перехода с Главной страницы на страницу Курсов Тестирования:
+    @Test
+    public void testNavigateToTestCoursePage() {
+        homePage.navigateTo();
+        TestCoursePage testCoursePage = homePage.clickTestCourseLink();
+
+    }
+
+
 
     // Другие тесты для главной страницы
 }

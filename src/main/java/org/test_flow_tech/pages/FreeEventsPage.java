@@ -8,9 +8,12 @@ public class FreeEventsPage {
 
     private String baseUrl = "https://skillfactory.ru/free-events";
 
-    // Локаторы элементов на странице корзины
-    private By freeEventsItemsLocator = By.cssSelector(".cart-items");
-    // ... другие локаторы ...
+    // Локаторы элементов на странице Бесплатных курсов
+    private By contactLinkLocator = By.linkText("Контакты");
+    private By freeEventsLinkLocator = By.linkText("БЕСПЛАТНО");
+    private By careerCenterLinkLocator = By.linkText("Центр карьеры");
+    private By onlineCourcesLinkLocator = By.linkText("онлайн-курсы");
+
 
     public FreeEventsPage(WebDriver driver) {
         this.driver = driver;
@@ -21,9 +24,20 @@ public class FreeEventsPage {
     public String getTitle() {
         return driver.getTitle();
     }
-
-    public boolean containsCourseWithTitle(String courseTitle) {
-        return driver.findElement(freeEventsItemsLocator).getText().contains(courseTitle);
+    //Бесплатно
+    public ContactPage clickContactLink() {
+        driver.findElement(contactLinkLocator).click();
+        return new ContactPage(driver);
+    }
+    //Контакты
+    public FreeEventsPage clickFreeEventsLink() {
+        driver.findElement(freeEventsLinkLocator).click();
+        return new FreeEventsPage(driver);
+    }
+    //Центр Карьеры
+    public CareerCenterPage clickCareerCenterLink() {
+        driver.findElement(careerCenterLinkLocator).click();
+        return new CareerCenterPage(driver);
     }
 
     // Другие методы для взаимодействия с элементами на странице
